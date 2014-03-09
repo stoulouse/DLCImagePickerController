@@ -79,6 +79,9 @@
                                      [UIImage imageNamed:@"photo_bar"]];
     
     self.topBar.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"photo_bar"]];
+	
+	[self.blurToggleButton setHidden:YES];
+	
     //button states
     [self.blurToggleButton setSelected:NO];
     [self.filtersToggleButton setSelected:NO];
