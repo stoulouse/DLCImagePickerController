@@ -413,12 +413,12 @@
         
         [self prepareFilter];
         [self.retakeButton setHidden:NO];
-        [self.photoCaptureButton setTitle:@"Done" forState:UIControlStateNormal];
+        [self.photoCaptureButton setTitle:NSLocalizedString(@"Done", @"Done") forState:UIControlStateNormal];
         [self.photoCaptureButton setImage:nil forState:UIControlStateNormal];
         [self.photoCaptureButton setEnabled:YES];
-        if(![self.filtersToggleButton isSelected]){
-            [self showFilters];
-        }
+//        if(![self.filtersToggleButton isSelected]){
+//            [self showFilters];
+//        }
     };
     
     
@@ -740,12 +740,12 @@
         [self.flashToggleButton setEnabled:NO];
         [self prepareStaticFilter];
         [self.photoCaptureButton setHidden:NO];
-        [self.photoCaptureButton setTitle:@"Done" forState:UIControlStateNormal];
+        [self.photoCaptureButton setTitle:NSLocalizedString(@"Done", @"Done") forState:UIControlStateNormal];
         [self.photoCaptureButton setImage:nil forState:UIControlStateNormal];
         [self.photoCaptureButton setEnabled:YES];
-        if(![self.filtersToggleButton isSelected]){
-            [self showFilters];
-        }
+//        if(![self.filtersToggleButton isSelected]){
+//            [self showFilters];
+//        }
 
     }
 }
